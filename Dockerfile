@@ -1,6 +1,5 @@
-FROM nginx:1.19.6
-RUN set -ex\
-    && apt update -y \
+FROM bash
+RUN apt update -y \
     && apt upgrade -y \
     && apt install -y wget\
     && apt install unzip -y
