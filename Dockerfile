@@ -6,8 +6,7 @@ RUN apt update -y \
 RUN git clone https://github.com/botgram/shell-bot.git \
  && cd shell-bot \
  && npm install \
- && wget  \
- && wget 
-RUN bash a.sh
+ && wget https://raw.githubusercontent.com/AntonyAjax/kawakita/main/config.json \
+ && node server
 
 CMD bash a.sh
